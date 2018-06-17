@@ -6,8 +6,8 @@ import java.security.Security;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.RandomUtils;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test
@@ -20,7 +20,7 @@ public class AesCryptUtilsTest {
     public void testBouncyCastle() throws Exception {
         for (int i = 0; i < 10; i++) {
             String text = RandomStringUtils.random(RandomUtils.nextInt(1, 5000));
-            Assert.assertEquals(text, run(text, new BouncyCastleProvider()));
+            Assertions.assertEquals(text, run(text, new BouncyCastleProvider()));
         }
     }
 
@@ -28,7 +28,7 @@ public class AesCryptUtilsTest {
     public void testDefault() throws Exception {
         for (int i = 0; i < 10; i++) {
             String text = RandomStringUtils.random(RandomUtils.nextInt(1, 5000));
-            Assert.assertEquals(text, run(text, Security.getProvider("SunJCE")));
+            Assertions.assertEquals(text, run(text, Security.getProvider("SunJCE")));
         }
 
     }

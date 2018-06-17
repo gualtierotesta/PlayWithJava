@@ -1,11 +1,11 @@
 package it.gualtierotesta.playwithjava;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import static org.junit.Assert.*;
 
 /**
  * Created by gualtiero.testa on 20/03/2017.
