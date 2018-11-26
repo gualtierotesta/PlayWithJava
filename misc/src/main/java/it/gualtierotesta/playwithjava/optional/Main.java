@@ -28,9 +28,9 @@ public class Main {
             createErrorView();
         }
 
-        optional.ifPresentOrElse(  // Java 9
-                Main::createView,
-                Main::createErrorView);
+//        optional.ifPresentOrElse(  // Java 9
+//                Main::createView,
+//                Main::createErrorView);
 
         // -----------------------------------------------------------------
         // 3 Eseguo qualcosa se esiste o lancio eccezione

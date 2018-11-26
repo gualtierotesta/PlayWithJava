@@ -69,12 +69,12 @@ class MyServiceTest {
 
     @Test
     void testLeggoConfigurazioneDaDiversiPunti() {
+//
+//        long parameter = Optional.ofNullable(System.getenv("MyVar"))
+//                .orElseGet(() -> Optional.ofNullable(System.getProperty("my-prop")))
+//                .map(Long::parseLong)
+//                .orElse(15L);
 
-        long parameter = Optional.ofNullable(System.getenv("MyVar"))
-                .orElseGet(() -> Optional.ofNullable(System.getProperty("my-prop")))
-                .map(Long::parseLong)
-                .orElse(15L);
-                ;
     }
 
     private String readConfigurationFromWebSphere() {
