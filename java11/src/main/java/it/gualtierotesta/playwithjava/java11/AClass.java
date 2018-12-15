@@ -5,4 +5,7 @@ public class AClass {
     public static String aMethod() {
         return "aResult";
     }
+    public static String anotherMethod() {
+        return "anotherResult";
+    }
 }
