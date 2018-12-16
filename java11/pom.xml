@@ -304,7 +304,6 @@
                                     <requirePluginVersions>
                                         <message>Best Practice is to always define plugin versions!</message>
                                         <banLatest>true</banLatest>
-                                        <banRelease>true</banRelease>
                                         <banSnapshots>true</banSnapshots>
                                         <phases>[ERROR] clean,deploy,site</phases>
                                     </requirePluginVersions>
