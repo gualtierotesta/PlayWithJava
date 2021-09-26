@@ -1,19 +1,26 @@
 *~
-article.md
+build
 *.class
 .classpath
 dist
 *.ear
+.gradle
+gradle-app.setting
+.gradletasknamecache
+# gradle/wrapper/gradle-wrapper.properties
+!gradle-wrapper.jar
 hs_err_pid*
 .idea
 *.iml
-*-iml## Build
 *.jar
 nb*
 nbproject
-nb-*.xml
 nb*.xml
+nb-*.xml
+out
 .project
 .settings
 target
 *.war
+.factorypath
+.vscode
