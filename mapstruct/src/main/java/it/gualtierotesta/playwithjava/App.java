@@ -1,5 +1,7 @@
 package it.gualtierotesta.playwithjava;
 
+import java.time.LocalDate;
+
 import it.gualtierotesta.playwithjava.domain.Car;
 import it.gualtierotesta.playwithjava.domain.CarMaker;
 import it.gualtierotesta.playwithjava.domain.CarType;
@@ -10,12 +12,17 @@ import it.gualtierotesta.playwithjava.dto.CarDTO;
  *
  */
 public class App {
-	public static void main(final String[] args) {
-		CarType type = CarType.builder().type("SUV").build();
-		Car car = Car.builder().maker(CarMaker.TOYOTA).numberOfSeats(5).type(type).build();
+    public static void main(final String[] args) {
+        Car car = Car.builder().maker(CarMaker.TOYOTA).numberOfSeats(5).type(CarType.builder().type("SUV").build())
+                .mftDate(LocalDate.now()).build();
+        System.out.println(car);
 
-		// when
-		CarDTO carDto = CarMapper.INSTANCE.carToCarDto(car);
-		System.out.println(carDto);
-	}
+        // when
+        CarDTO carDto = CarMapper.INSTANCE.carToCarDto(car);
+        System.out.println(carDto);
+
+        // when
+        Car car2 = CarMapper.INSTANCE.carDTOToCar(carDto);
+        System.out.println(car2);
+    }
 }
