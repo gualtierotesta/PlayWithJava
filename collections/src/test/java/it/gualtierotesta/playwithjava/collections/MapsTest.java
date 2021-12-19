@@ -1,13 +1,11 @@
 package it.gualtierotesta.playwithjava.collections;
 
-import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class MapsTest {
 
@@ -31,6 +29,6 @@ public class MapsTest {
 
     @Test
     void check_setup () {
-        assertThat(map.size()).isEqualTo(3);
+        Assertions.assertThat(map.size()).isEqualTo(3);
     }
 }
