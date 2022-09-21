@@ -8,33 +8,28 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>netflix</artifactId>
+    <artifactId>collections</artifactId>
     <description>Playground for the NetFlix libraries</description>
 
     <properties>
 
         <!-- Dependencies versions -->
-        <hystrix-core.version>1.5.18</hystrix-core.version>
-        <logback-classic.version>1.4.1</logback-classic.version>
+        <junit5.version>5.9.1</junit5.version>
+        <assertj.version>3.23.1</assertj.version>
     </properties>
 
     <dependencies>
-
         <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
-            <version>${hystrix-core.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit5.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${logback-classic.version}</version>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>

@@ -15,9 +15,9 @@
     <properties>
 
         <!-- Dependencies versions -->
+        <junit5.version>5.9.1</junit5.version>
         <immutables.version>2.9.2</immutables.version>
         <jackson-databind.version>2.13.4</jackson-databind.version>
-        <junit-jupiter.version>5.9.0</junit-jupiter.version>
 
     </properties>
 
@@ -28,7 +28,6 @@
             <version>${immutables.version}</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -37,11 +36,9 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>${junit-jupiter.version}</version>
+            <version>${junit5.version}</version>
             <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
     <build>
