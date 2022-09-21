@@ -1,33 +1,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>it.gualtierotesta.playwithjava</groupId>
+    <parent>
+        <groupId>it.gualtierotesta.playwithjava</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <artifactId>java17</artifactId>
-    <version>1.0.0</version>
     <name>java17</name>
     <description>Pet project to test Java 17 features</description>
     <inceptionYear>2021</inceptionYear>
 
     <properties>
-    
+
         <!-- Java version -->
         <maven.compiler.release>17</maven.compiler.release>
-
-        <!-- Encoding -->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-        <!-- Execution flags -->
-        <skipTests>false</skipTests>
 
         <!-- Dependencies versions -->
 
     </properties>
 
-    <build>
+    <!-- <build>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -42,25 +37,6 @@
             </plugins>
 
         </pluginManagement>
-    </build>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <id>gualtiero</id>
-            <name>Gualtiero Testa</name>
-            <email>gualtierotesta@protonmail.com</email>
-            <roles>
-                <role>architect</role>
-                <role>developer</role>
-            </roles>
-        </developer>
-    </developers>
+    </build> -->
 
 </project>

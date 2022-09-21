@@ -24,6 +24,13 @@
         <!-- Execution flags -->
         <skipTests>false</skipTests>
 
+        <!-- Dependencies versions -->
+        <junit5.version>5.9.1</junit5.version>
+        <pmd.version>6.49.0</pmd.version>
+
+        <!-- Plugins versions -->
+        <pmd-plugin.version>3.19.0</pmd-plugin.version>
+
     </properties>
 
     <licenses>
@@ -47,9 +54,13 @@
     </developers>
 
     <modules>
+        <module>collections</module>
         <module>immutables</module>
         <module>vavr</module>
         <module>java11</module>
+        <module>java17</module>
+        <module>maps</module>
+        <module>mapstruct</module>
         <module>netflix</module>
     </modules>
 
@@ -265,7 +276,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-pmd-plugin</artifactId>
-                    <version>3.19.0</version>
+                    <version>${pmd-plugin.version}</version>
                     <configuration>
                         <linkXRef>true</linkXRef>
                         <minimumTokens>100</minimumTokens>
