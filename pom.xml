@@ -62,6 +62,7 @@
         <module>maps</module>
         <module>mapstruct</module>
         <module>netflix</module>
+        <module>misc</module>
     </modules>
 
     <build>
