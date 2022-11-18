@@ -26,7 +26,7 @@
 
         <!-- Dependencies versions -->
         <junit5.version>5.9.1</junit5.version>
-        <pmd.version>6.49.0</pmd.version>
+        <pmd.version>6.51.0</pmd.version>
 
         <!-- Plugins versions -->
         <pmd-plugin.version>3.19.0</pmd-plugin.version>
