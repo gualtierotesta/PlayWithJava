@@ -27,7 +27,6 @@
         -->
 
         <!-- Dependencies versions -->
-        <junit5.version>5.9.1</junit5.version>
         <!-- <pmd.version>6.10.0</pmd.version> -->
 
     </properties>
@@ -140,7 +139,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>3.4.1</version>
+                <version>3.4.2</version>
                 <configuration>
                     <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
                 </configuration>

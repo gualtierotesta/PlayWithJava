@@ -13,14 +13,6 @@
     <packaging>jar</packaging>
     <description>Sample Java 11 project</description>
 
-    <properties>
-
-        <!-- Dependencies versions -->
-        <junit5.version>5.9.1</junit5.version>
-        <assertj.version>3.23.1</assertj.version>
-
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -135,7 +127,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>3.4.1</version>
+                <version>3.4.2</version>
                 <configuration>
                     <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
                 </configuration>
