@@ -18,7 +18,6 @@
 
         <!-- Dependencies versions -->
         <vavr.version>0.10.4</vavr.version>
-        <junit5.version>5.9.1</junit5.version>
 
     </properties>
 

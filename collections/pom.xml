@@ -11,13 +11,6 @@
     <artifactId>collections</artifactId>
     <description>Playground for the NetFlix libraries</description>
 
-    <properties>
-
-        <!-- Dependencies versions -->
-        <junit5.version>5.9.1</junit5.version>
-        <assertj.version>3.23.1</assertj.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
