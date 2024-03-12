@@ -245,7 +245,7 @@
                                         <message>No Snapshots Allowed!</message>
                                     </requireReleaseDeps>
                                     <requireMavenVersion>
-                                        <version>3.8</version>
+                                        <version>3.9</version>
                                     </requireMavenVersion>
                                     <requireUpperBoundDeps>
                                     </requireUpperBoundDeps>
