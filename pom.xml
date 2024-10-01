@@ -253,13 +253,16 @@
                                         <message>The reactor is not valid</message>
                                     </reactorModuleConvergence>
                                     <banDuplicatePomDependencyVersions />
+                                    <requireFilesExist>
+                                        <files>
+                                            <file>${user.dir}/README.md</file>
+                                            <file>${user.dir}/.editorconfig</file>
+                                        </files>
+                                    </requireFilesExist>
 
                                     <dependencyConvergence />
-                                    <requireReleaseDeps>
-                                        <message>No Snapshots Allowed!</message>
-                                    </requireReleaseDeps>
-                                    <requireUpperBoundDeps>
-                                    </requireUpperBoundDeps>
+                                    <requireUpperBoundDeps />
+                                    <requireReleaseDeps />
 
                                 </rules>
 
