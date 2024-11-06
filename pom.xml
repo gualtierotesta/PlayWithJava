@@ -66,6 +66,7 @@
         <module>mapstruct</module>
         <module>netflix</module>
         <module>misc</module>
+        <module>problems</module>
     </modules>
 
     <build>
@@ -263,7 +264,7 @@
                                     <dependencyConvergence />
                                     <requireUpperBoundDeps />
                                     <requireReleaseDeps />
-
+                                    <banDynamicVersions />
                                 </rules>
 
                             </configuration>
