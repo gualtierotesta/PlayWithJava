@@ -2,7 +2,7 @@ package it.gualtierotesta.playwithjava.problems.leetcode;
 
 import org.junit.jupiter.api.Test;
 
-class MergeStringsAlternately1768Test {
+class P1768_MergeStringsAlternately {
 
     @Test
     void test01() {
