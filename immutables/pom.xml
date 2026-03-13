@@ -16,8 +16,8 @@
     <properties>
 
         <!-- Dependencies versions -->
-        <immutables.version>2.10.1</immutables.version>
-        <jackson-databind.version>2.17.2</jackson-databind.version>
+        <immutables.version>2.12.1</immutables.version>
+        <jackson-databind.version>2.21.1</jackson-databind.version>
 
     </properties>
 

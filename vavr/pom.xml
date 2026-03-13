@@ -17,7 +17,7 @@
     <properties>
 
         <!-- Dependencies versions -->
-        <vavr.version>0.10.4</vavr.version>
+        <vavr.version>1.0.1</vavr.version>
 
     </properties>
 

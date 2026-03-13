@@ -16,7 +16,7 @@
 
         <!-- Dependencies versions -->
         <hystrix-core.version>1.5.18</hystrix-core.version>
-        <logback-classic.version>1.5.8</logback-classic.version>
+        <logback-classic.version>1.5.32</logback-classic.version>
     </properties>
 
     <dependencies>
